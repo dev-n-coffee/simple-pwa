@@ -1,0 +1,14 @@
+{
+  "name": "Hello PWA",
+  "short_name": "Hello",
+  "icons": [{
+    "src": "FAVICON.webp",
+    "sizes": "512x512",
+    "type": "image/webp"
+  }],
+  "start_url": "1-dummy.html",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "white",
+  "theme_color": "white"
+}

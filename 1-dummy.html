@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- (A) "USUAL STUFF" -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dummy Page</title>
+  <link rel="stylesheet" type="text/css" href="1-dummy.css">
+  <script src="1-dummy.js" defer async></script>
+
+  <!-- (B) WEB APP MANIFEST -->
+  <!-- https://web.dev/add-manifest/ -->
+  <link rel="manifest" href="2-manifest.json">
+
+  <!-- (C) SERVICE WORKER -->
+  <script>
+  if ("serviceWorker" in navigator) { navigator.serviceWorker.register("3-worker.js"); }
+  </script>
+</head>
+<body>
+  <h1>Hello World!</h1>
+  <img src="NOT.webp" loading="lazy">
+</body>
+</html>
