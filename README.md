@@ -1,6 +1,6 @@
 ## SIMPLE PROGRESSIVE WEB APPLICATION BAREBONES EXAMPLE
-https://devncoffee.com/TODO/
-https://youtube.com/TODO/
+YouTube Tutorial - https://youtu.be/jTTGdvX2AuE
+Written Tutorial - https://devncoffee.com/progressive-web-app-simple-example/
 
 ## LICENSE
 Copyright by Dev + Coffee
